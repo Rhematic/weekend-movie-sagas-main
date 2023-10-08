@@ -29,3 +29,5 @@ router.get("/:id", (req, res) => {
       res.sendStatus(500);
     });
 });
+
+module.exports = router;
